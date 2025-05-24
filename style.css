@@ -1,0 +1,7 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+strong, b {
+    color: #00698f; /* Cor azul para destacar o negrito */
+}

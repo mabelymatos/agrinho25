@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Governança Local - Agrinho</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5fff6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #8f6792;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    .tab {
+      overflow: hidden;
+      background-color: #e0f2e9;
+      border-bottom: 2px solid #8f6792;
+    }
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+    .tab button:hover {
+      background-color: #ccc;
+    }
+    .tab button.active {
+      background-color: #8f6792;
+      color: white;
+    }
+    .tabcontent {
+      display: none;
+      padding: 20px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+    .tabcontent img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #8f6792;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Vida rosa</h1>
+  <p>Saúde e bem-estar entre o campo e a cidade</p>
+</header>
+
+<main>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Introducao')" id="defaultOpen">Introdução</button>
+    <button class="tablinks" onclick="openTab(event, 'Dicas')">Dicas</button>
+    <button class="tablinks" onclick="openTab(event, 'Comunidade')">Comunidade</button>
+    <button class="tablinks" onclick="openTab(event, 'Produtos naturais')">Produtos naturais</button>
+  </div>
+
+  <div id="Introducao" class="tabcontent">
+    <h3>Introdução</h3>
+    <img src="img1.jpeg" alt="imagem introdução" width="300">
+    <p>Sabemos que a relação entre saúde e bem-estar pode variar significativamente entre o campo e a cidade devido às diferenças no estilo de vida,
+       ambiente e acesso a recursos. Trazendo diversas vantagens e desvantagens como:</p>
+
+
+ <h3>Vantagens encontradas na cidade:</h3>
+    <p> - Ar puro e natureza: O campo geralmente oferece ar mais limpo e acesso direto à natureza, o que pode contribuir para uma melhor saúde respiratória e mental.</p>
+   <p>  - Alimentação mais saudável: A proximidade com a produção de alimentos orgânicos e naturais pode incentivar uma dieta mais saudável.</p>
+     <p>- Menos poluição sonora: O ambiente mais tranquilo pode reduzir o estresse e melhorar a qualidade do sono.</p>
+ <h3>Desafios enfrentados no campo:</h3>
+     <p>- Acesso limitado a serviços de saúde: Em áreas rurais, pode haver menos hospitais, clínicas e especialistas, tornando o acesso a cuidados médicos mais difícil.</p>
+ <p>- Isolamento social: A vida no campo pode ser mais isolada, o que pode afetar a saúde mental e o bem-estar social.</p>
+    <p> - Menos opções de lazer: As atividades de lazer podem ser limitadas em comparação com as cidades.</p>
+
+
+
+ <h3>Vantagens encontradas na cidade:</h3>
+     <p>ortunidades de lazer: As cidades oferecem uma ampla gama de atividades culturais, esportivas e de entretenimento.</p>
+     <p>- Conexões sociais: A vida urbana proporciona mais oportunidades para interações sociais e construção de redes de apoio.</p>
+ <h3>Desafios enfrentados no campo:</h3>
+     <p>- Poluição e estresse: A poluição do ar, sonora e visual pode afetar a saúde física e mental.</p>
+     <p>- Estilo de vida sedentário: O ambiente urbano pode incentivar um estilo de vida mais sedentário, especialmente com o uso excessivo de transporte motorizado.</p>
+     <p>- Custo de vida: O custo de vida nas cidades pode ser mais alto, o que pode afetar a capacidade de acessar alimentos saudáveis e moradia adequada.</p>
+
+<h3>E aonde o Vida Rosa entra nisso?</h3>
+
+ <p></p>Pensando nisso desenvolvemos um site onde poderemos te ajudar a unir as melhores vantagens de cada um de
+  forma pratica para aqueles que querem reencontrar sua autoestima e bem estar em meio as rotinas corridas. Imagine um lugar onde o ar puro do campo se encontra
+   com a energia vibrante da cidade, criando um equilíbrio perfeito para nutrir seu corpo e alma. No Vida Rosa, acreditamos que a saúde e o bem-estar vão além da
+    ausência de doenças – são sobre viver plenamente, em harmonia com a natureza e consigo mesmo. </p>
+
+ <p>No Vida Rosa, acreditamos que cada pequeno passo conta. Seja qual for seu objetivo – melhorar a saúde física,
+ encontrar equilíbrio emocional ou simplesmente se sentir melhor –, estamos aqui para apoiá-lo.
+  Explore nosso site, participe de nossa comunidade e comece a construir o caminho para uma vida mais saudável e feliz. Vamos caminhar juntos rumo ao bem-estar!</p>
+  </div>
+
+  <div id="Dicas" class="tabcontent">
+    <h3>Dicas</h3>
+<img src="img/impo.jpeg" alt="imagem importância" width="250">
+    <p>.</p>
+  </div>
+
+  <div id="Comunidade" class="tabcontent">
+    <h3>Comunidade</h3>
+<img src="img/exe.jpeg" alt="imagem exemplo" width="200">
+    <p>.</p>
+  </div>
+
+  <div id="Produtos naturais" class="tabcontent">
+    <h3>Produtos naturais</h3>
+    <img src="img4.jpeg" alt="imagem conexão" width="300">
+    <p>No Vida Rosa, estamos comprometidos em ajudá-lo a encontrar os melhores produtos naturais para melhorar sua saúde e bem-estar.
+       Aqui estão algumas recomendações de produtos que podem beneficiar sua saúde física e emocional:
+
+Suplementos Naturais
+1. Ômega 3: O óleo de peixe rico em ômega 3 é conhecido por suas propriedades anti-inflamatórias e benefícios para a saúde cardiovascular.
+ Você pode encontrar ômega 3 de alta qualidade em:
+- Loja online da Natura
+- Farmácias de manipulação como a Extrafarma
+2. Probióticos: Os probióticos são bactérias benéficas que podem ajudar a melhorar a saúde digestiva e fortalecer o sistema imunológico.
+ Você pode encontrar probióticos em:
+- Loja online da Probiotico
+- Supermercados como o Pão de Açúcar
+3. Vitaminas Naturais: As vitaminas naturais podem ajudar a preencher lacunas nutricionais e promover a saúde geral.
+ Você pode encontrar vitaminas naturais em:
+- Loja online da Vitamina Mais
+- Farmácias como a Drogasil
+
+Produtos de Cuidados Pessoais
+1. Óleos Essenciais: Os óleos essenciais podem ser usados para promover relaxamento, reduzir estresse e melhorar a saúde da pele. Você pode encontrar óleos essenciais em:
+- Loja online da Aromatherapy
+- Lojas de produtos naturais como a Mundo Verde
+2. Cremes e Loções Naturais: Os cremes e loções naturais podem ajudar a hidratar e proteger a pele. Você pode encontrar cremes e loções naturais em:
+- Loja online da Natura
+- Lojas de produtos naturais como a Erva Mate
+
+Alimentos Naturais
+1. Chás Herbais: Os chás herbais podem ser usados para promover relaxamento, reduzir estresse e melhorar a saúde digestiva. Você pode encontrar chás herbais em:
+- Loja online da Chá Brasil
+- Supermercados como o Carrefour
+2. Alimentos Orgânicos: Os alimentos orgânicos são produzidos sem o uso de pesticidas e fertilizantes químicos, o que pode ser benéfico para a saúde e o meio ambiente.
+ Você pode encontrar alimentos orgânicos em:
+- Feiras de produtos orgânicos
+- Supermercados como o Pão de Açúcar
+
+Dicas para Comprar Produtos Naturais
+1. Verifique a rotulagem: Certifique-se de que os produtos sejam rotulados como "naturais" ou "orgânicos" e contenham ingredientes de alta qualidade.
+2. Pesquise sobre a marca: Verifique a reputação da marca e leia as avaliações de outros clientes.
+3. Consulte um profissional: Se você tiver alguma dúvida ou preocupação, consulte um profissional de saúde antes de usar qualquer produto natural.
+
+</p>Caso precise de mais informaçoes consulte nossa comunidade.
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 - Site Educativo sobre o Agrinho
+</footer>
+
+<script>
+  function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
